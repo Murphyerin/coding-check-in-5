@@ -8,14 +8,19 @@ h2 {
 
 h3 {
   font-family: monospace;
+  font-size: 15pt;
+  font-style: oblique;
 }
 
 h4 {
-  font-family: sans-serif;
+  font-family: monospace;
+  font-size: 14pt;
+  font-style: oblique;
 }
 
 h5 {
-  font-family: sans-serif;
+  font-family: monospace;
+  font-size: 12pt;
 }
 
 p {
@@ -29,4 +34,16 @@ article {
 .advice {
   font-family: Georgia, serif;
   font-size: 10pt;
+}
+
+.list {
+  list-style-type: circle;
+}
+
+.background{
+  background-color: #FFFAE1;
+}
+
+.text{
+  text-indent: 1.5%;
 }
