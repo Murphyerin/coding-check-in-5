@@ -1,5 +1,6 @@
 h1 {
   font-family: monospace;
+  font-weight: lighter;
 }
 
 h2 {
@@ -10,17 +11,20 @@ h3 {
   font-family: monospace;
   font-size: 15pt;
   font-style: oblique;
+  font-weight: 50;
 }
 
 h4 {
   font-family: monospace;
   font-size: 14pt;
   font-style: oblique;
+  font-weight: 50;
 }
 
 h5 {
   font-family: monospace;
   font-size: 12pt;
+  font-weight: 50;
 }
 
 p {
@@ -34,10 +38,16 @@ article {
 .advice {
   font-family: Georgia, serif;
   font-size: 10pt;
+  margin: 20px 50px 30px;
+}
+
+.margin{
+  margin: 200px 50px 30px;
 }
 
 .list {
   list-style-type: circle;
+  line-height: 150%;
 }
 
 .background{
@@ -46,4 +56,5 @@ article {
 
 .text{
   text-indent: 1.5%;
+  line-height: 150%;
 }
